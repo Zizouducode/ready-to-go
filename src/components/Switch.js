@@ -7,15 +7,15 @@ const Switch = (props) => {
   };
   return (
     <div>
-      <div className="switch">
+      <div className="switchs">
         <div
-          className={props.switch === true ? "purple" : "white"}
+          className={props.switch === true ? "purple switch" : "white switch"}
           onClick={handleSwitchOn}
         >
           ON
         </div>
         <div
-          className={props.switch === false ? "purple" : "white"}
+          className={props.switch === false ? "purple switch" : "white switch"}
           onClick={handleSwitchOff}
         >
           OFF

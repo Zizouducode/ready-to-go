@@ -13,10 +13,9 @@ const Switchs = () => {
         <Switch switch={switch2} setSwitch={setSwitch2} />
         <Switch switch={switch3} setSwitch={setSwitch3} />
       </div>
-      <div className={switch1 & switch2 & switch3 ? "green" : "red"}>
-        {switch1 & switch2 & switch3 ? "GO ! " : "NO WAY !"}
+      <div className={switch1 && switch2 && switch3 ? "green" : "red"}>
+        {switch1 && switch2 && switch3 ? "GO ! " : "NO WAY !"}
       </div>
-
       <div
         className="reset"
         onClick={() => {
