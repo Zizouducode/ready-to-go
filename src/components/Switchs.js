@@ -75,6 +75,16 @@ const Switchs = () => {
         {switch1 & switch2 & switch3 ? "GO ! " : "NO WAY !"}
       </div>
       {/* <Switch switch1={switch1} setSwitch1={setSwitch1} /> */}
+      <div
+        className="reset"
+        onClick={() => {
+          setSwitch1(false);
+          setSwitch2(false);
+          setSwitch3(false);
+        }}
+      >
+        Reset
+      </div>
     </div>
   );
 };
