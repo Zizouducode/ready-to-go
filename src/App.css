@@ -125,7 +125,7 @@ span {
   font-weight: 700;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1024px) {
   .container {
     flex-direction: column;
     gap: 20px;
