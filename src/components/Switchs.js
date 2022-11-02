@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Switch from "./Switch";
 
 const Switchs = () => {
   const [switch1, setSwitch1] = useState(false);
@@ -73,6 +74,7 @@ const Switchs = () => {
       <div className={switch1 & switch2 & switch3 ? "green" : "red"}>
         {switch1 & switch2 & switch3 ? "GO ! " : "NO WAY !"}
       </div>
+      {/* <Switch switch1={switch1} setSwitch1={setSwitch1} /> */}
     </div>
   );
 };
